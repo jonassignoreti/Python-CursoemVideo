@@ -43,3 +43,5 @@ print('As tuplas podem ter variáveis de diferentes tipos:')
 pessoa = ('Jonas', 27, 'M', 75.3)
 print(pessoa)
 del(pessoa) #excluindo uma tupla.
+
+# Testando o GitHub
