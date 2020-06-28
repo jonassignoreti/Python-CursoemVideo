@@ -8,3 +8,4 @@ print('É alfanumérico?', a.isalnum())
 print('Está em maiúsculas?', a.isupper())
 print('Está em minúsculas?', a.islower())
 print('Está capitalizada?', a.istitle())
+# testando a comparação
