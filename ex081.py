@@ -7,12 +7,12 @@ C) Se o valor 5 foi digitado e está ou não na lista'''
 lista = []
 while True:
     lista.append(int(input('Digite um valor: ')))
-    cond = str(input('Deseja continuar? [S/N]: ')).strip()
-    while 'SsNn' in cond:
+    cond = str(input('Deseja continuar? [S/N]: ')).strip().upper()
+    while not (cond.__contains__('S') or cond.__contains__('N')):
         print('Código Inválido, tente novamente:')
         cond = str(input('Deseja continuar? [S/N]: '))
 
-    if 'Nn' in cond:
+    if cond.__contains__('N'):
         break
 print('-=' * 30)
 
