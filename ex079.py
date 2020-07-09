@@ -5,7 +5,7 @@ lista = []
 while True:
     num = int(input('Digite um valor: '))
     if num in lista:
-        print('O valor já existe.')
+        print('Valor duplicado')
     else:
         lista.append(num)
         print('Valor adicionado com sucesso...')
