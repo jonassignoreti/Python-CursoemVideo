@@ -1,0 +1,8 @@
+'''Adicione ao módulo moeda.py criado nos desafios anteriores,
+uma função chamada resumo(),
+que mostre na tela algumas informações geradas
+pelas funções que já temos no módulo criado'''
+from pacotes import moedas
+
+p = float(input('Digite o preço R$: '))
+moedas.resumo(p, 10, 15)
