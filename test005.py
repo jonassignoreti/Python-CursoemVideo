@@ -26,3 +26,5 @@ while True:
         arquivo = open('text.txt', 'w+') #Abre para reescrever por cima posteriormente, ou limpa.
     if escolha in 'E':
         break
+    if escolha in 'N':
+        continue
