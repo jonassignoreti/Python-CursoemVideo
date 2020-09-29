@@ -1,12 +1,13 @@
-str1 = 'abc'
-str2 = 'acbd'
-
-if str1 < str2:
-    print('a')
-else:
-    print('b')
-
-if len(2 * str1) > len(str2):
-    print('c')
-else:
-    print('d')
+lista = []
+while True:
+    while True:
+        try:
+            n = float(input('Digite um número inteiro: '))
+            lista.append(n)
+            break
+        except:
+            print('ERRO! Digite um número real')
+    print(lista)
+    print(f'O maior número é {max(lista)}')
+    print(f'O menor número é {min(lista)}')
+    print('-' * 50)
