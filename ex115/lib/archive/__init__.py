@@ -1,5 +1,6 @@
 from ex115.lib.interface import *
 
+
 def file_exist(file):
     try:
         a = open(file, 'rt')
@@ -15,9 +16,9 @@ def create_file(file):
         a = open(file, 'wt+')
         a.close()
     except:
-        error(f'Error creating file {name}')
+        error(f'Error creating file {file}')
     else:
-        print(f'File {name} created successfully!')
+        print(f'File {file} created successfully!')
 
 
 def read_file(file):
